@@ -1,0 +1,7 @@
+Lo que tengo que hacer es mergear los cambios del branch a master y para eso usaria los siguientes comandos:
+git checkout master
+git pull origin master
+git merge front-react
+git push origin master
+
+primero me situo en master, traigo los ultimos cambios, mergeo la rama front-react en master y pusheo los cambios a master.
