@@ -1,0 +1,6 @@
+En la rama en la que estoy trabajando, usaria el comando git stash
+para guardar mi progreso actual. Despues haria un git checkout master para moverme a la rama master.
+Haria un git pull para actualizar la rama local y haria el cambio de eliminar el archivo status.js
+y despues crearia el commit y pushearia el cambio a master
+y por ultimo, me moveria a la rama en la que estaba trabajando y haria un git stash apply para traer los cambios
+que me quedaron pendientes.
