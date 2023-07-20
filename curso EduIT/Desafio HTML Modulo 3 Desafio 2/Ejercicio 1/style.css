@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("M4-desafio1-fondo.png");
+    background-size: cover;
+  }
+  #container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("M4-desafio1-fondo-form.png");
+    background-size: cover;
+  }
+  form {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  input {
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 22.66px;
+  }
+
+  button{
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 22.66px;
+    background-color: #15163d;
+    color: white;
+
+  }
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 32.64px;
+    margin: 10px;
+    font-weight: bold;
+  }
+  h2{
+    font-family: 'Mulish', sans-serif;
+    color: #04146c;
+    font-size: 32.64px;
+    font-weight:700;
+  }

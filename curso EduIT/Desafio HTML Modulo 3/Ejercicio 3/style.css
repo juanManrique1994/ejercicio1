@@ -1,0 +1,46 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: auto;
+    box-sizing:content-box;
+    text-align: center;
+}
+
+section{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: auto;
+    border: 5px #6e9ab8 solid;
+}
+
+h1{
+    color: #04146c;
+    font-size: 24px;
+}
+
+input{
+    color: #414166;
+    font-size: 18.66px;
+    padding: 5px;
+    box-sizing: content-box;
+    margin-bottom: 5px;
+}
+
+button{
+    color: white;
+    font-size: 18.66px;
+    background-color: #0a2ff1;
+    margin-bottom: 5px;
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+p{
+    color: #0a2ff1;
+    font-size: 18.66px;
+}

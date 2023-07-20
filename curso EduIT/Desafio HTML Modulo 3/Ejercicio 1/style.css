@@ -1,0 +1,31 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    color: #04146c bold;
+    font-size: 37.48px;
+}
+
+h2{
+    color:#0a2ff1;
+    font-size: 21.56px;
+    width: 40%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+
+h3{
+    color: #04146c;
+    font-size: 19.97px;
+    width: 40%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+img{
+    vertical-align: middle;
+}

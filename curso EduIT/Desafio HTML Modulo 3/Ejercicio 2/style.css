@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    color:#0a2ff1;
+    font-size:66.66px;
+}
+
+p{
+    color:#0a2ff1;
+    background-color: #eff2ff;
+    font-size: 30.06px;
+    display:inline;
+    margin-right: 10px;
+}
+
+button{
+    color: white;
+    background-color: #8a9af1;
+    font-size: 30.06px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+img{
+    width: 30%;
+    padding: 0px;
+}
+
+footer{
+    background-color: #3ffff3;
+    color: #3ffff3;
+    height: 10px;
+}

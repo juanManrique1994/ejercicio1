@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(../Recursos/Ejercicio\ 1/coolvetica); 
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Recursos/Ejercicio\ 1/Roboto);
+}
+h1{
+    font-family: 'Coolvetica';
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #04146c;
+}
+
+.prueba{
+    font-family: 'Roboto';
+    font-size: 40px;
+    background-color: #0a2ff1;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.explora{
+    font-family: 'Roboto';
+    font-size: 40px;
+    color: #04146c;
+    border:2px solid #04146c;
+    
+}
