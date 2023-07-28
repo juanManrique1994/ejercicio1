@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif; 
+  }
+
+  header{
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: block;
+    margin-left: 50px;
+  }
+  
+  h1{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .texto1 {
+    background-color: orange;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .texto2 {
+    background-color: palegoldenrod;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  .texto3 {
+    background-color: pink;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+  /* Inicia la animación cuando se carga la página */
+  .texto {
+    animation: animacion 1s forwards;
+  }
+  
+  /* Aplica un delay a cada texto para que comiencen uno tras otro */
+  .texto2 {
+    animation-delay: 1s;
+  }
+  
+  .texto3 {
+    animation-delay: 2s;
+  }
+  

@@ -1,0 +1,51 @@
+
+.img-adaptation {
+    width: 100%; 
+}
+
+@media (min-width: 768px) {
+    .img-adaptation {
+        width: 80%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .small-caps {
+        font-variant: small-caps;
+    }
+
+    .text-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.container{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+h1{
+    font-size: 82.66px;
+    font-weight: 900;
+    color: #04146c;
+}
+
+p{
+    font-size: 21.33px;
+    font-weight: 400;
+    color: #04146c;
+}
+
+button{
+    font-size: 18.66px;
+    font-weight: 400;
+    background-color: #04146c;
+    color: white;
+    margin-left: 10px;
+    margin: 10px;
+}
